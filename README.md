@@ -1,13 +1,14 @@
 # Manual instructions
 
-## Prerequisite
-- [Subscribe](https://ngrok.com/)
+## สิ่งที่ต้องเตรียมก่อนลงมือปฏิบัติ
+- สมัคร GitHub -> [Subscribe](https://github.com/)
+- สมัคร Ngrok -> [Subscribe](https://ngrok.com/)
 
-## Start
-- [Link](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
-- `python -m pip install --upgrade pip`
-- `python -m pip install pymongo dnspython`
-- `python -m pip install 'mtools[all]'`
+## ติดตั้ง hands-on environment
+- `bash setup.sh`
 
-## Solutions
-- [Link](https://stackoverflow.com/questions/70296667/how-do-i-connect-to-mongodb-running-in-github-codespaces-using-mongodb-compass/70636614#70636614)
+## ทดสอบ connect MongoDB ด้วย mongosh
+- `mongosh "mongodb://localhost:27017,localhost:27018,localhost:27019?replicaSet=replset"`
+
+## หากพบปัญหาลองดูวิธีการแก้ปัญหาด้านล้าง
+- StackOverflow -> [Link](https://stackoverflow.com/questions/70296667/how-do-i-connect-to-mongodb-running-in-github-codespaces-using-mongodb-compass/70636614#70636614)
