@@ -10,6 +10,8 @@
 ## สร้าง MongoDB สำหรับทดสอบ
 `mlaunch init --replicaset`
 
+`mlaunch list`
+
 ## ทดสอบ connect MongoDB ด้วย mongosh
 `mongosh "mongodb://localhost:27017,localhost:27018,localhost:27019?replicaSet=replset"`
 
@@ -21,3 +23,8 @@
 - [Mtools](https://rueckstiess.github.io/mtools/index.html)
 - [Setup Ngrok](https://stackoverflow.com/questions/70296667/how-do-i-connect-to-mongodb-running-in-github-codespaces-using-mongodb-compass/70636614#70636614)
 - [VSCode for MongoDB](https://www.mongodb.com/docs/mongodb-vscode/install/)
+
+
+MongoDB Community Edition mongotop mongodump mongostats.  
+MongoDB Enterprise Advance (EA) Ops Manager paid edition premium support security advance ldap/ad per server / RAM Pool.   
+MongoDB Atlas (Developer Data Platform) Data Service/App Services/Charts.   
